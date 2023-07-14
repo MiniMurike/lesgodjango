@@ -1,0 +1,13 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<div style='font: 1.5em "Arial"'>
+    <b>{{ flatpage.content }}</b>
+    <br>
+    <u style="cursor: pointer">{{ flatpage.content }}</u>
+</div>
+{% endblock content %}
